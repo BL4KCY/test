@@ -1,0 +1,14 @@
+Go to a directory
+make it a local repo using:
+git init
+Add the files in your new local repository/stages them for the first commit:
+git add .
+Commit the files that you've staged in your local repository:
+git commit -m "Commit message lalala"
+You need to go to github now and create a remote repos or use github command line.
+To do that I think you will need gitsome package in ubuntu, I don't remember search on this.
+Copy the remote repo url you will need it for the next step.
+Add the URL for the remote repository where your local repository will be pushed:
+git remote add origin <REMOTE_URL>
+Push the changes to your remote repo:
+git push origin
